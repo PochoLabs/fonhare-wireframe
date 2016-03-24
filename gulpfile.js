@@ -22,7 +22,7 @@ var rimraf = require('gulp-rimraf');
 // gulp sass
 // Compiles SCSS files in CSS
 gulp.task('sass', function () {
-    gulp.src('./_sass/*.scss')
+    gulp.src('./sass/*.scss')
         .pipe(plumber())
         .pipe(sass())
         .pipe(gulp.dest('./css'));
@@ -37,7 +37,7 @@ gulp.task('cssnano', ['cleancss'], function(){
     .pipe(rename({suffix: '.min'}))
     .pipe(cssnano({discardComments: {removeAll: true}}))
     .pipe(gulp.dest('./css/'));
-}); 
+});
 
 
 // Run:
@@ -56,7 +56,7 @@ gulp.task('templates', function() {
 // gulp watch
 // Starts watcher. Watcher runs gulp sass task on changes
 gulp.task('watch', function () {
-    gulp.watch('./_sass/**/*.scss', ['sass']);
+    gulp.watch('./sass/**/*.scss', ['sass']);
     gulp.watch('./css/theme.css', ['cssnano']);
 });
 
