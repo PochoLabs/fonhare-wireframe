@@ -34,7 +34,7 @@ This setup takes advantage of Harp.js to serve locally. In the root directory ru
 harp server
 ```
 
-#### Preparinp for GitHub Pages
+#### Preparing for GitHub Pages
 
 Once you have developed to a point you feel comfortable publishing, follow this Workflow:
 
