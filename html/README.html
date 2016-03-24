@@ -14,11 +14,12 @@ Get Involved<span class="caret"></span><ul role="menu" class="dropdown-menu"><li
 </code></pre><pre><code>gulp copy-assets
 </code></pre><h4>While Developing</h4><p>This setup takes advantage of Harp.js to serve locally. In the root directory run:</p>
 <pre><code>harp server
-</code></pre><h4>Preparinp for GitHub Pages</h4><p>Once you have developed to a point you feel comfortable publishing, follow this Workflow:</p>
+</code></pre><h4>Preparing for GitHub Pages</h4><p>Once you have developed to a point you feel comfortable publishing, follow this Workflow:</p>
 <ol>
 <li>Stop Harp server <code>Ctrl + C</code></li>
 <li>Switch to gh-pages branch</li>
+<li>Update gh-pages branch from master branch</li>
+<li>Change referenced css from <code>_sass/_theme.scss</code> to <code>css/theme.css</code>.</li>
 <li><code>harp compile ./ html/</code></li>
 <li>Move the html from &#39;html&#39; to the root of the directory</li>
-<li>Change referenced css from <code>_sass/_theme.scss</code> to <code>css/theme.css</code>.</li>
 </ol><script src="src/js/jquery.min.js"></script><script src="src/js/bootstrap.js"></script><script src="src/js/bootstrap-sprockets.js"></script><script src="src/js/jquery.slim.js"></script><script src="src/js/navigation.js"></script><script src="src/js/owl.carousel.js"></script><script src="src/js/skip-link-focus-fix.js"></script><script src="src/js/main.js"></script></body></html>
