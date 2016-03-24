@@ -40,6 +40,7 @@ Once you have developed to a point you feel comfortable publishing, follow this 
 
 1. Stop Harp server `Ctrl + C`
 2. Switch to gh-pages branch
-3. `harp compile ./ html/`
-4. Move the html from 'html' to the root of the directory
-5. Change referenced css from `_sass/_theme.scss` to `css/theme.css`.
+3. Update gh-pages branch from master branch
+4. Change referenced css from `_sass/_theme.scss` to `css/theme.css`.
+4. `harp compile ./ html/`
+5. Move the html from 'html' to the root of the directory
