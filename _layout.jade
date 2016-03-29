@@ -1,26 +1,5 @@
-doctype
-html(lang="en")
-	head
-		title Fondation Haitienne de Rehabilitation | FONHARE
-		link(rel="stylesheet" href="css/theme.css")
-		link(rel="shortcut icon", href="img/favicon.png", type="image/x-icon")
-		meta(name="viewport", content="width=device-width, initial-scale=1")
-	body
-		include _partials/nav.jade
+include _partials/header.jade
 
-		!= yield
+!= yield
 
-		//- script(src="//code.jquery.com/jquery-1.12.0.min.js")
-
-		script(src="src/js/jquery.min.js")
-
-		script(src="src/js/bootstrap.js")
-		script(src="src/js/bootstrap-sprockets.js")
-
-
-		script(src="src/js/jquery.slim.js")
-		script(src="src/js/navigation.js")
-		script(src="src/js/owl.carousel.js")
-		script(src="src/js/skip-link-focus-fix.js")
-
-		script(src="src/js/main.js")
+include _partials/footer.jade
