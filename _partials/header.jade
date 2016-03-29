@@ -15,17 +15,35 @@ html(lang="en")
 						p 555-555-555
 					.col-sm-4
 						p email@us.com
+
+		#site-logo
+			.container
+				.row
+					.col-sm-6.col-md-9
+						img(src="img/LogoFONHAREWEB2copy.png", alt="FONHARE")
+					.col-sm-6.col-md-3
+						ul.nav.navbar-nav.navbar-right.languages.text-center
+							li
+								a(href="#") English
+							li
+								a(href="#") Francais
+							li
+								a(href="#") Espa&ntilde;ol
+
+
 		nav.navbar.navbar-default.navbar-top(role="navigation")
 			div.container
 				div.navbar-header
-					button.navbar-toggle(type="button", data-toggle="collapse", data-target="#bs-example-navbar-collapse-1")
+					button.navbar-toggle(type="button", data-toggle="collapse", data-target="#home-nav")
 						span.sr-only Toggle navigation
 						span.icon-bar
 						span.icon-bar
 						span.icon-bar
-					a.navbar-brand.serving(href="/fonhare-wireframe/") FONHARE
-				div.collapse.navbar-collapse(id="bs-example-navbar-collapse-1")
-					ul.nav.navbar-nav.navbar-right.home-nav
+					//- a.navbar-brand.serving(href="/fonhare-wireframe/") FONHARE
+
+				div.collapse.navbar-collapse(id="home-nav")
+
+					ul.nav.navbar-nav.home-nav
 						li
 							a.serving(href="/fonhare-wireframe/") Home
 						li.dropdown
@@ -98,3 +116,11 @@ html(lang="en")
 
 						li
 							a.btn.btn-primary.serving(href="/fonhare-wireframe/donate", style="") Donate
+
+					ul.nav.navbar-nav.navbar-right.languages
+						li
+							a(href="#") English
+						li
+							a(href="#") Francais
+						li
+							a(href="#") Espa&ntilde;ol
