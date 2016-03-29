@@ -54,9 +54,30 @@ a.section{
 
 #main-footer{
 	background: #2b2b2b;
+	color: #e2e2e2;
 	& h3{
 		color: #ccc;
+		font-weight: lighter;
+		& > span{
+			color: #61a5e9;
+			font-weight: 600;
+		}
 	}
+	& #footer-social-media{
+		color: #fff;
+		clear: both;
+		width: auto;
+		margin: 0px auto;
+		& li {
+			list-style: none;
+			display: inline;
+			margin: 0px 3px;
+		}
+		& i{
+			color: #fff;
+		}
+	}
+
 	padding: 20px;
 }
 
