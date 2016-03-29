@@ -4,6 +4,11 @@
 #top-bar{
 	background: #171717;
 	color: #e2e2e2;
+	font-size: 0.7em;
+	padding: 4px;
+	& p{
+		margin-bottom: 0px;
+	}
 
 }
 
