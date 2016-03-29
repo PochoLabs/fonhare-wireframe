@@ -49,3 +49,29 @@ a.section{
 	color: #fff;
 	border-radius: 10px;
 }
+
+// Footer section
+
+#main-footer{
+	background: #2b2b2b;
+	& h3{
+		color: #ccc;
+	}
+	padding: 20px;
+}
+
+#footer-credits {
+	background: #171717;
+	padding: 10px;
+	& p {
+		color: #ccc;
+	}
+}
+
+
+// Helper Classes
+
+.page-pad{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
