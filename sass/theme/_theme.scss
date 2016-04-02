@@ -1,5 +1,9 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
+.img-center{
+	margin: 0px auto;
+}
+
 // Top Bar section
 #top-bar{
 	background: #171717;
@@ -24,6 +28,22 @@
 	margin: 20px auto;
 }
 
+#logo-title{
+	width: auto;
+	min-width: 280px;
+	margin: 0px auto;
+	padding: 20px auto;
+	& .main{
+		font-size: 1.4em;
+		color: #053207;
+		font-weight: bolder;
+	}
+	& .minor{
+		font-size: .9em;
+		color: #105513;
+		font-weight: 100;
+	}
+}
 
 // -----------------------
 
