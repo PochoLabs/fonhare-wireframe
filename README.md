@@ -34,6 +34,8 @@ This setup takes advantage of Harp.js to serve locally. In the root directory ru
 harp server
 ```
 
+You will be able to see the site being served locally at `localhost:9000`.
+
 #### Preparing for GitHub Pages
 
 Once you have developed to a point you feel comfortable publishing, follow this Workflow:
